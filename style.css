@@ -2310,6 +2310,15 @@ img{
 	width: 100%;
 }
 
+#ongoingProject{
+	background-color: #f8f8f8;
+	display: inline;
+	float: left;
+	padding: 70px 0;
+	width: 100%;
+}
+
+
 
 
 /*======================///////////////
