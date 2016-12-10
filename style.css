@@ -2679,3 +2679,27 @@ img{
     height: 220px;
   }
 }
+
+
+/*********************************************for You tube container***************************************/
+
+.center { text-align: center; list-style-position:inside;}
+ 
+ .video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe {
+	position:absolute;  
+	top:0;
+	left:25%;
+  right : 25%;
+	width:50%;
+	height:50%;
+  //display: block;
+  //margin: auto;
+}
