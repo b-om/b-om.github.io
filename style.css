@@ -1249,13 +1249,6 @@ img{
   color: white;
 }
 
-/*Responsive*/
-/*@media (max-width: 1199px) and (min-width: 1024){
-
-.resume_btn span{ 
-    padding: 1px 20px;  
-  }
-}*/
 @media (max-width: 1000px) and (min-width: 768px){
 
 .resume_btn span{ 
