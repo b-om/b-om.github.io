@@ -1222,6 +1222,88 @@ img{
   outline: none;
 }
 
+.resume_btn{
+            background-color: Transparent;
+            background-repeat:no-repeat;
+            border: none;
+            cursor:pointer;
+            overflow: hidden;
+            outline:none;            
+}
+
+.resume_btn span{           
+    background-color: transparent;
+    border: 2px solid #2bcdc1;
+    color: #555;
+    padding: 2px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;  
+  }
+.resume_btn span:hover{  
+  background-color: #2bcdc1;
+  color: white;
+}
+
+/*Responsive*/
+/*@media (max-width: 1199px) and (min-width: 1024){
+
+.resume_btn span{ 
+    padding: 1px 20px;  
+  }
+}*/
+@media (max-width: 1000px) and (min-width: 768px){
+
+.resume_btn span{ 
+    padding: 1px 40px;  
+  }
+}
+@media (max-width: 767px){
+
+.resume_btn span{ 
+    padding: 1px 148px;  
+  }
+}
+@media (max-width: 700px){
+
+.resume_btn span{ 
+    padding: 1px 128px;  
+  }
+}
+@media (max-width: 500px) and (min-width: 480px){
+
+.resume_btn span{ 
+    padding: 1px 62px;  
+  }
+}
+@media (max-width: 414px) and (min-width: 412px){
+
+.resume_btn span{ 
+    padding: 1px 41px;  
+  }
+}
+@media (max-width: 384px) and (min-width: 361px){
+
+.resume_btn span{ 
+    padding: 1px 32px;  
+  }
+}
+@media (max-width: 360px){
+
+.resume_btn span{ 
+    padding: 1px 26px;  
+  }
+}
+@media (max-width: 320px){
+.resume_btn span{ 
+    padding: 1px 14px;  
+  }
+}
+
 /*--------------------*/
 /* TESTIMONIAL */
 /*--------------------*/
